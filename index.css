@@ -1,0 +1,551 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #292929;
+  margin-bottom: 150px;
+}
+
+/*Menu principal*/
+
+.topnav {
+  overflow: hidden;
+  background: #292929;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  margin-top: 0%;
+  margin-left: 5%;
+  color: #bbc3c8;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  font-style: italic; font-size: 1em;
+  
+}
+.line {
+    border-bottom: double #555;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+    color: #bbc3c8;
+    background: #292929;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    min-width: 144px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top : 103%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown {
+    background-color: #3e8e41;
+}
+
+p .camagru {
+     color: #c9d0d4;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 2.875em; 
+     font-weight: 100;
+     line-height: 50px;
+     letter-spacing: 1px;
+     padding: 0 0 30px;
+     border-bottom: double #555;
+}
+
+
+.paginate {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+h2 {
+     color: #c9d0d4;
+}
+
+p { color: #bbc3c8;
+	font-family: 'Verdana', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	text-indent: 30px;
+	margin: 0;
+}
+
+
+#menu_log {
+    font-family: 'Georgia', serif;
+    font-style: italic; font-size: 1.125em;
+    line-height: 1.375em;
+    word-spacing: 10px;
+    padding: 10px 6px 8px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.connect {
+	color: #bbc3c8;
+	background: #292929;
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 22px;
+	left: 80%;
+    padding: 10px 6px 8px;
+    position: absolute;
+    top: 90px;
+	text-decoration: none;
+}
+
+.signin {
+	color: #bbc3c8;
+	background: #292929;
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 22px;
+	left: 74%;
+    padding: 10px 6px 8px;
+    position: absolute;
+    top: 90px;
+	text-decoration: none;
+}
+
+a {
+	color: #bbc3c8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbc3c8;
+	text-decoration: none;
+}
+
+#login {
+	color: #bbc3c8;
+}
+
+#signup {
+	color: #bbc3c8;
+}
+
+form {
+   color: #bbc3c8;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #c9d0d4;
+    color: #292929;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.registerbtn {
+    width: auto;
+    background-color: #c9d0d4;
+    color: #292929;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c9d0d4;
+    text-align: center;
+    height: 25px;
+}
+
+.admin{
+    color: #bbc3c8;
+    background: #292929;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    left: 70%;
+    padding: 10px 6px 8px;
+    position: absolute;
+    top: 8%;
+    text-decoration: none;
+}
+
+
+.all {
+    color: #bbc3c8;
+    background: #292929;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 6px 8px;
+    left: 24%;
+    position: absolute;
+    top : 8%;
+    
+
+}
+
+.mygallery {
+    color: #bbc3c8;
+    background: #292929;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    left: 53%;
+    padding: 10px 6px 8px;
+    position: absolute;
+    top: 8%;
+    text-decoration: none;
+}
+
+.newcreation {
+    color: #bbc3c8;
+    background: #292929;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    left: 35%;
+    padding: 10px 6px 8px;
+    position: absolute;
+    top: 8%;
+    text-decoration: none;
+}
+
+
+
+#startbutton {
+    background-color: #c9d0d4;
+    color: #FF6A80;
+    /* padding: 14px 20px; */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 240px;
+    /* margin-left: -38%; */
+    /* margin-top: -8%; */
+    position: absolute;
+    transition: .5s ease;
+    top: 450px;
+    left: 10%;
+    margin-left: auto;
+}
+
+.picture {
+  margin-left: 42%;
+  /* margin-top: -12%; */
+  position: absolute;
+  /* margin-top: -11%; */
+  top: 194px;
+}
+
+.selection {
+    width: 200px;
+    height: 120px;
+    margin : 4%;
+    display: inline;
+}
+
+/* resize images */
+.selection img {
+    width: 10%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+
+}
+
+#video {
+    /* display: block; */
+    margin-left: 8.5%;
+    /* margin-right: auto; */
+    margin-top: 50px;
+    /* width: 40%; */
+}
+
+#bottom_form {
+      position: relative;
+}
+
+#capture, #submitphoto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.upload {
+    margin-top: 4%;
+}
+
+#miniature {
+    display: inline-block;
+}
+
+.make-background-grey {
+    background-color: grey !important;
+    cursor: not-allowed !important;
+}
+
+/* The following is pertaining to the toggle */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.pngs {
+  margin-top: 15%;
+  width: 70%;
+}
+
+.display-images {
+  width: 20%;
+  right: 0;
+  top: 200px;
+  position: absolute;
+}
+
+#miniatures
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#lastmanstanding {
+    width: 320px;
+    height: 240px; 
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1024px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #miniatures
+  {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+  }
+  #lastmanstanding {
+    width: 160px;
+    height: 120px; 
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #video {
+    margin-top: 15px;
+    width: 75%;
+    display: block;
+    margin-left: 10%;
+  }
+  #startbutton {
+/*    top: -325px;*/
+    width: 75%;
+ /*   display: block;
+    position: relative;
+    margin: 0;*/
+    position: relative;
+    top: 15px;
+  }
+  .picture {
+    top: 500px;
+    display: block;
+    margin-left: 0;
+    position: relative;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 240px;
+  }
+  .pngs {
+    /*top: -140px;*/
+    width: 100%;
+/*    display: block;
+    position: relative;
+    margin: 0;*/
+  }
+  .wholeselection {
+    top: -320px;
+    position: relative;
+  }
+  .display-images {
+    top: 400px;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+  .alternative {
+    top: -100px;
+    float: right;
+    position: relative;
+    width: 50%;
+    font-size: 12px;
+  }
+  .imgandbutton {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .alternative {
+/*    top: -150px;*/
+    top: -200px;
+  }
+}
